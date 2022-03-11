@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    font-family: 'Roboto';
+}
+nav{
+    background-color: #212121;
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+.elemento{
+    font-size: 25px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.elemento:hover{
+    color:#918181;
+}
+
+.icono{
+    width: 80px;
+    height: 70px;
+    margin-top: -10px;
+}
+
+div {
+    background-color: #fafafa;
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.banorte, .banamex, .inicio, .hsbc{
+    width: 98%;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+div .ilustracion{
+    width: 250px;
+    height: 150px;
+}
+
+.titulo_banco, .titulo{
+    color: #212121;
+    font-family: 'Roboto';
+}
+
+.titulo_banco{
+    background-color: #212121;
+    color: #fafafa;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 40px;
+}
+.descripcion{
+    color:#918181;
+    font-style: italic;
+}
+
+ul li a{
+    background-color: #fafafa;
+}
+
+.parrafo{
+    font-size: 18px;
+    color:#918181;
+    text-align: justify;
+}
+
+.tarjeta{
+    align-items:center;
+    text-align: center;
+    background-color: #212121;
+}
